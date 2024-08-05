@@ -34,9 +34,9 @@
     },
     "Identity": {
       "InvalidEmailProvider": "Podany dostawca adresów e-mail nie jest prawidłowym dostawcą adresów e-mail.",
-      "EmailInUse": "Podany adres e-mail jest już używany.",
-      "UsernameInUse": "Podana nazwa użytkownika jest już używana.",
-      "InvalidCredentials": "Nieprawidłowe dane uwierzytelniające."
+      "EmailUsed": "Podany adres e-mail jest już używany.",
+      "UsernameUsed": "Podana nazwa użytkownika jest już używana.",
+      "Unauthorized": "Nieprawidłowe dane uwierzytelniające."
     }
   },
   "SignUpPage": {
@@ -69,14 +69,14 @@
   },
   "ConfirmEmailAlertDialog": {
     "title": "Potwierdź swój adres email",
-    "description": " Prosimy zweryfikować swój adres email, aby aktywować swoje konto. Sprawdź swoją skrzynkę odbiorczą w poszukiwaniu wiadomości z linkiem potwierdzającym. Dziękujemy!",
+    "description": "Prosimy zweryfikować swój adres email, aby aktywować swoje konto. Sprawdź swoją skrzynkę odbiorczą w poszukiwaniu wiadomości z linkiem potwierdzającym. Dziękujemy!",
     "continue": "Kontynuuj"
   },
   "ErrorAlertDialog": {
     "title": "Ups! Coś poszło nie tak!",
     "continue": "Kontynuuj"
   },
-  "ConfrimEmailPage": {
+  "ConfirmEmailPage": {
     "success": {
       "title": "Twój adres e-mail został potwierdzony",
       "description": "Możesz teraz zalogować się na swoje nowe konto",
@@ -87,5 +87,24 @@
       "description": "Wystąpił błąd podczas potwierdzania Twojego adresu e-mail",
       "back": "Wstecz"
     }
+  },
+  "SignInPage": {
+    "back": "Wstecz",
+    "signIn": "Zaloguj się",
+    "description": "Wprowadź swój adres email i hasło poniżej, aby się zalogować"
+  },
+  "SignInForm": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Wpisz swój adres email"
+    },
+    "password": {
+      "label": "Hasło",
+      "placeholder": "Wpisz swoje hasło"
+    },
+    "noAccount": "Nie masz konta?",
+    "signIn": "Zaloguj się",
+    "continueWith": "Lub kontynuuj z",
+    "signUp": "Zarejestruj się"
   }
 }

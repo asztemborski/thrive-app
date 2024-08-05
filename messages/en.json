@@ -2,11 +2,11 @@
   "LandingPage": {
     "WelcomeSection": {
       "header": "Manage Projects with Ease",
-      "description": "Streamline your project management with our app - a powerful tool for organizing tasks, tracking progress, and improving teamcollaboration."
+      "description": "Streamline your project management with our app - a powerful tool for organizing tasks, tracking progress, and improving team collaboration."
     },
     "DescriptionSection": {
       "header": "Efficient Project Management",
-      "description": "Our app provides efficient project management solutions, enablingseamless collaboration and effective communication. It empowersteams to deliver projects on time and within budget"
+      "description": "Our app provides efficient project management solutions, enabling seamless collaboration and effective communication. It empowers teams to deliver projects on time and within budget"
     },
     "StatisticsSection": {
       "projectsCreated": "Projects created",
@@ -34,9 +34,9 @@
     },
     "Identity": {
       "InvalidEmailProvider": "Given email address provider is not a valid email provider.",
-      "EmailInUse": "Given email address is already in use.",
-      "UsernameInUse": "Given username is already in use.",
-      "InvalidCredentials": "Invalid credentials."
+      "EmailUsed": "Given email address is already in use.",
+      "UsernameUsed": "Given username is already in use.",
+      "Unauthorized": "Invalid credentials."
     }
   },
   "SignUpPage": {
@@ -76,7 +76,7 @@
     "title": "Oops! Something went wrong!",
     "continue": "Continue"
   },
-  "ConfrimEmailPage": {
+  "ConfirmEmailPage": {
     "success": {
       "title": "Your email has been confirmed",
       "description": "You can now sign in with your new account",
@@ -87,5 +87,24 @@
       "description": "There was an error while confirming your email address",
       "back": "Back"
     }
+  },
+  "SignInPage": {
+    "back": "Back",
+    "signIn": "Sign In",
+    "description": "Enter your email address and password below to sign in"
+  },
+  "SignInForm": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email address"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter your password"
+    },
+    "noAccount": "Don't have an account?",
+    "signIn": "Sign in with email",
+    "continueWith": "Or continue with",
+    "signUp": "Sign up"
   }
 }

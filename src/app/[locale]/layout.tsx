@@ -1,26 +1,27 @@
-import "@/styles/global.css";
+import '@/styles/global.css';
 
-import { useLocale } from "next-intl";
-import { Quicksand } from "next/font/google";
-import { notFound } from "next/navigation";
+import { useLocale } from 'next-intl';
+import { Quicksand } from 'next/font/google';
+import { notFound } from 'next/navigation';
 
-import { appDescription } from "@/constants/common";
+import { appDescription } from '@/constants/common';
 
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 
 type RootLayoutProps = {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 };
 
 export const metadata: Metadata = {
-  title: "Welcome | Thrive",
+  title: 'Welcome | Thrive',
   description: appDescription,
 };
 
 const quicksand = Quicksand({
-  weight: "400",
-  subsets: ["latin"],
+  weight: '400',
+  subsets: ['latin'],
 });
 
 export default function RootLayout({ children, params }: RootLayoutProps) {

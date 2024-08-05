@@ -8,21 +8,25 @@ export type ErrorResponse = {
   title: string;
   code: string;
   errors: Error[];
-  source: string;
   statusCode: number;
 };
 
 export const DEFAULT_ERROR_RESPONSE: ErrorResponse = {
-  title: "There was an error while handling your request.",
-  code: "Threve.InternalError",
+  title: 'There was an error while handling your request.',
+  code: 'Thrive.Exception',
   errors: [],
-  source: "",
   statusCode: 500,
 };
 
+export const UNAUTHORIZED_ERROR_RESPONSE: ErrorResponse = {
+  title: 'Unauthorized',
+  code: 'Identity.Unauthorized',
+  errors: [],
+  statusCode: 401,
+};
+
 const isApiError = (error: unknown): error is ErrorResponse => {
-  if (error && typeof error === "object" && "code" in error && "title" in error)
-    return true;
+  if (error && typeof error === 'object' && 'code' in error && 'title' in error) return true;
 
   return false;
 };
